@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "open index.html",
+    "compile": "tsc typescript.ts"
+  },
+  "dependencies": {
+    "typescript": "*"
+  }
+}

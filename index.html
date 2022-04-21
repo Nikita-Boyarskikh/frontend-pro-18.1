@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>18.1 Статическая и динамическая типизация в языках программирования</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <style>
+    .main {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <form id="calc" class="field is-horizontal">
+      <div class="field-body">
+        <div class="field has-addons">
+          <p class="control is-expanded">
+            <input type="number" value="42" name="a" class="input" aria-label="A">
+          </p>
+          <p class="control">
+            <span class="select">
+              <select name="sign" aria-label="Sign">
+                <option selected value="minus">-</option>
+                <option value="plus">+</option>
+                <option value="divide">/</option>
+                <option value="multiply">*</option>
+              </select>
+            </span>
+          </p>
+          <p class="control is-expanded">
+            <input type="number" value="11" name="b" class="input" aria-label="B">
+          </p>
+        </div>
+
+        <div class="field">
+          <p class="control is-expanded">
+            <input type="submit" class="button is-primary is-fullwidth" value="=">
+          </p>
+        </div>
+
+        <div class="field">
+          <p class="control">
+            <input type="number" name="result" class="input" disabled aria-label="Result">
+          </p>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <script src="./javascript.js"></script>
+  <!--<script src="./typescript.js"></script>-->
+</body>
+</html>
