@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "open index.html",
-    "compile": "tsc typescript.ts"
+    "compile": "tsc"
   },
   "dependencies": {
     "typescript": "*"
